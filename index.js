@@ -7,7 +7,7 @@ const ww = require('watsonworkspace-sdk')
 const action = 'explore'  // the actionId used to create the initial UI of buttons
 
 ww.logger.level = 'info'
-logger.level = 'verbose'
+logger.level = 'info'
 
 /**
  * Based on an annotation, adds a message focus with the NLP data.
