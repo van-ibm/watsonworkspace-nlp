@@ -4,7 +4,7 @@
   "description": "An IBM Watson Workspace bot to explore cognitive metadata",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "jasmine",
     "dev": "concurrently \"node ngrok.js\" \"nodemon ./index.js\""
   },
